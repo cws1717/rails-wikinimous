@@ -1,0 +1,21 @@
+// Place all the styles related to the Articles controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Anton|Dancing+Script');
+@import "/components/navbar.css";
+
+body {
+  background: rgb(245,245,245);
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Anton', sans-serif;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+}

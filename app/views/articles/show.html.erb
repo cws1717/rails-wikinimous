@@ -1,0 +1,15 @@
+<h1>WELCOME TO THE SHOW</h1>
+
+<h2><%= @article.title %></h2>
+<%= link_to "Edit", edit_article_path  %>
+<%= link_to "Delete", article_path(@article),
+      method: :delete,
+      data: { confirm: "Are you sure?" } %>
+
+<%= link_to "New Article", new_article_path  %>
+
+<p><%= @article.content %></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque libero enim aut error aspernatur velit dolor consectetur quisquam ipsa suscipit, illum sint officiis hic deleniti ut odit vel voluptates quos.</span><span>Eum blanditiis tempora laborum dolorem necessitatibus, fugiat id? Consequatur laboriosam nulla deserunt, in ratione, obcaecati ab, omnis eveniet repudiandae quam molestiae rem esse mollitia libero sed fugit! Laudantium ex, dolores.</span></p>
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque libero enim aut error aspernatur velit dolor consectetur quisquam ipsa suscipit, illum sint officiis hic deleniti ut odit vel voluptates quos.</span><span>Eum blanditiis tempora laborum dolorem necessitatibus, fugiat id? Consequatur laboriosam nulla deserunt, in ratione, obcaecati ab, omnis eveniet repudiandae quam molestiae rem esse mollitia libero sed fugit! Laudantium ex, dolores.</span></p>
+<%= link_to "Home", articles_path  %>
